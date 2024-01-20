@@ -1,0 +1,89 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    /* font-weight: 550;
+    font-size: 16px; */
+}
+
+h1 {
+    margin: 0;
+}
+
+.box {
+    background-color: white;
+    width: 275px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1.25rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image1 {
+    width: 100%;
+    border-radius: 0.75rem;
+    /* padding: 5px 5px 5px 5px; */
+    /* margin: auto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+
+.sec1 {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 0.75rem;
+    font-weight: 800;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.publish {
+    font-size: 0.75rem;
+    font-weight: lighter;
+}
+
+.heading {
+    font-size: 1.15rem;
+    font-weight: 750;
+}
+
+.heading:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.text {
+    line-height: 1.25rem;
+    opacity: 0.6;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+span {
+    display: block;
+}
+
+#image2 {
+    width: 30px;
+    height: 30px;
+}
+
+.profile span {
+    font-size: 0.75rem;
+    font-weight: 800;
+}
